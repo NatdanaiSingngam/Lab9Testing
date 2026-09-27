@@ -1,5 +1,6 @@
 """Test Doubles — TODO: Stub / Mock / Fake"""
 from unittest.mock import Mock
+
 from src.calc import calculate_discount
 from src.email_service import send_welcome_email
 from src.store import FakeDB, User
